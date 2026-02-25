@@ -30,6 +30,13 @@ class Capuchino : public Beverage
     double cost() override { return 269.99; }
 };
 
+class Tea : public Beverage
+{
+public:
+    string getDescription() override { return "Чай"; }
+    double cost() override { return 149.99; }
+};
+
 class CondimentDecorator : public Beverage
 {
 protected:
@@ -80,6 +87,14 @@ public:
     double cost() override { return beverage->cost() + 28.8; }
 };
 
+class Chocolate : public CondimentDecorator
+{
+public:
+    Chocolate(Beverage* b) : CondimentDecorator(b) {}
+    string getDescription() override { return beverage->getDescription() + " Шоколад"; }
+    double cost() override { return beverage->cost() + 20.4; }
+};
+
 
 int main()
 {
@@ -89,6 +104,7 @@ int main()
     drink = new Milk(drink);
     drink = new Sugar(drink);
     drink = new Syrup(drink);
+    drink = new Chocolate(drink);
 
     cout << drink->getDescription() << " стоит " << drink->cost() << " Р." << endl;
 
@@ -104,4 +120,10 @@ int main()
 
     cout << drink3->getDescription() << " стоит " << drink3->cost() << " Р." << endl;
     
+    Beverage* drink4 = new Tea;
+    drink4 = new Milk(drink4);
+    drink4 = new Syrup(drink4);
+
+    cout << drink4->getDescription() << " стоит " << drink4->cost() << " Р." << endl;
+
 }
