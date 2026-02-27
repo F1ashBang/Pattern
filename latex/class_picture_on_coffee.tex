@@ -1,0 +1,81 @@
+\doxysection{Класс Picture\+On\+Coffee}
+\hypertarget{class_picture_on_coffee}{}\label{class_picture_on_coffee}\index{PictureOnCoffee@{PictureOnCoffee}}
+
+
+Класс для добавления "{}Картинки на кофе"{}.  
+
+
+Граф наследования:\+Picture\+On\+Coffee:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_picture_on_coffee}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_picture_on_coffee_a908c1b83b832966b61cbc41700715d6d}\label{class_picture_on_coffee_a908c1b83b832966b61cbc41700715d6d} 
+{\bfseries Picture\+On\+Coffee} (\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}b)
+\begin{DoxyCompactList}\small\item\em Конструктор для инициализации добаки к напитку \end{DoxyCompactList}\item 
+string \doxymbox{\hyperlink{class_picture_on_coffee_a8c68b0cea23ba85fc475847a27a8f463}{get\+Description}} () override
+\begin{DoxyCompactList}\small\item\em Функция для получения названия напитка с добавкой \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_picture_on_coffee_aff89b81ebe2310fc4f6e7b6d34d24db0}{cost}} () override
+\begin{DoxyCompactList}\small\item\em Функция для получения цену напитка с добавкой \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые члены унаследованные от \doxymbox{\hyperlink{class_condiment_decorator}{Condiment\+Decorator}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Condiment\+Decorator} (\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}b)
+\begin{DoxyCompactList}\small\item\em Конструктор для инициализации напитка \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Дополнительные унаследованные члены}
+\doxysubsection*{Защищенные данные унаследованные от \doxymbox{\hyperlink{class_condiment_decorator}{Condiment\+Decorator}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*} {\bfseries beverage}
+\begin{DoxyCompactList}\small\item\em Получение указателя на класс напиток \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для добавления "{}Картинки на кофе"{}. 
+
+\label{doc-func-members}
+\Hypertarget{class_picture_on_coffee_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_picture_on_coffee_aff89b81ebe2310fc4f6e7b6d34d24db0}\index{PictureOnCoffee@{PictureOnCoffee}!cost@{cost}}
+\index{cost@{cost}!PictureOnCoffee@{PictureOnCoffee}}
+\doxysubsubsection{\texorpdfstring{cost()}{cost()}}
+{\footnotesize\ttfamily \label{class_picture_on_coffee_aff89b81ebe2310fc4f6e7b6d34d24db0} 
+double Picture\+On\+Coffee::\+cost (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция для получения цену напитка с добавкой 
+
+\begin{DoxyReturn}{Возвращает}
+double -\/ Возвращает цену напитка с добавкой 
+\end{DoxyReturn}
+
+
+Переопределяет метод предка \doxymbox{\hyperlink{class_condiment_decorator_aae52dd4645b9c84541728a60295a3882}{Condiment\+Decorator}}.
+
+\Hypertarget{class_picture_on_coffee_a8c68b0cea23ba85fc475847a27a8f463}\index{PictureOnCoffee@{PictureOnCoffee}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!PictureOnCoffee@{PictureOnCoffee}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily \label{class_picture_on_coffee_a8c68b0cea23ba85fc475847a27a8f463} 
+string Picture\+On\+Coffee::\+get\+Description (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция для получения названия напитка с добавкой 
+
+\begin{DoxyReturn}{Возвращает}
+string -\/ Возвращает название напитка с добавкой 
+\end{DoxyReturn}
+
+
+Переопределяет метод предка \doxymbox{\hyperlink{class_condiment_decorator_a0f95d1319daadd8ed01b2ffaa3c601d6}{Condiment\+Decorator}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+Structural\+Patterns/\+\+Structure Pattern/\+Structure Pattern.\+cpp\end{DoxyCompactItemize}

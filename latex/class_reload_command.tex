@@ -1,0 +1,85 @@
+\doxysection{Класс Reload\+Command}
+\hypertarget{class_reload_command}{}\label{class_reload_command}\index{ReloadCommand@{ReloadCommand}}
+
+
+Команда перезагрузки компьютера  
+
+
+Граф наследования:\+Reload\+Command:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_reload_command}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_reload_command_a5c993726368efcc266e5b441de8473f5}{Reload\+Command}} (\doxymbox{\hyperlink{class_computer_system}{Computer\+System}} \texorpdfstring{$\ast$}{*}s)
+\begin{DoxyCompactList}\small\item\em Конструктор команды перезагрузки \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_reload_command_ab02957bb0a308480ecbeec0abc60f149}{execute}} () override
+\begin{DoxyCompactList}\small\item\em Выполнение команды перезагрузки \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_reload_command_a4cded76b755624e5fb57bce47c8ae2cc}{undo}} () override
+\begin{DoxyCompactList}\small\item\em Отмена команды перезагрузки \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Команда перезагрузки компьютера 
+
+Конкретная команда, инкапсулирующая запрос на перезагрузку 
+
+\label{doc-constructors}
+\Hypertarget{class_reload_command_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_reload_command_a5c993726368efcc266e5b441de8473f5}\index{ReloadCommand@{ReloadCommand}!ReloadCommand@{ReloadCommand}}
+\index{ReloadCommand@{ReloadCommand}!ReloadCommand@{ReloadCommand}}
+\doxysubsubsection{\texorpdfstring{ReloadCommand()}{ReloadCommand()}}
+{\footnotesize\ttfamily \label{class_reload_command_a5c993726368efcc266e5b441de8473f5} 
+Reload\+Command::\+\+Reload\+Command (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_computer_system}{Computer\+System}} \texorpdfstring{$\ast$}{*}}]{s}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор команды перезагрузки 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em s} & Указатель на компьютерную систему \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_reload_command_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_reload_command_ab02957bb0a308480ecbeec0abc60f149}\index{ReloadCommand@{ReloadCommand}!execute@{execute}}
+\index{execute@{execute}!ReloadCommand@{ReloadCommand}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily \label{class_reload_command_ab02957bb0a308480ecbeec0abc60f149} 
+void Reload\+Command::\+execute (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Выполнение команды перезагрузки 
+
+
+
+Замещает \doxymbox{\hyperlink{class_command}{Command}}.
+
+\Hypertarget{class_reload_command_a4cded76b755624e5fb57bce47c8ae2cc}\index{ReloadCommand@{ReloadCommand}!undo@{undo}}
+\index{undo@{undo}!ReloadCommand@{ReloadCommand}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily \label{class_reload_command_a4cded76b755624e5fb57bce47c8ae2cc} 
+void Reload\+Command::\+undo (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Отмена команды перезагрузки 
+
+Показывает, что отмена перезагрузки может быть невозможна из-\/за запущенных файлов 
+
+Замещает \doxymbox{\hyperlink{class_command}{Command}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+Behavioral\+Patterns/\+\+Behavioral Pattern/\+Behavioral Pattern.\+cpp\end{DoxyCompactItemize}

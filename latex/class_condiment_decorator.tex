@@ -1,0 +1,84 @@
+\doxysection{Класс Condiment\+Decorator}
+\hypertarget{class_condiment_decorator}{}\label{class_condiment_decorator}\index{CondimentDecorator@{CondimentDecorator}}
+
+
+Класс для получения информации о напитке или о добавке  
+
+
+Граф наследования:\+Condiment\+Decorator:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.058824cm]{class_condiment_decorator}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_condiment_decorator_ae243b2a0f2785a0c1c32340408bebb59}\label{class_condiment_decorator_ae243b2a0f2785a0c1c32340408bebb59} 
+{\bfseries Condiment\+Decorator} (\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}b)
+\begin{DoxyCompactList}\small\item\em Конструктор для инициализации напитка \end{DoxyCompactList}\item 
+string \doxymbox{\hyperlink{class_condiment_decorator_a0f95d1319daadd8ed01b2ffaa3c601d6}{get\+Description}} () override
+\begin{DoxyCompactList}\small\item\em Функция для получения названия напитка \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_condiment_decorator_aae52dd4645b9c84541728a60295a3882}{cost}} () override
+\begin{DoxyCompactList}\small\item\em Функция для получения цену напитка \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Защищенные данные}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_condiment_decorator_a88e7aee32fb2f878046db515945bd672}\label{class_condiment_decorator_a88e7aee32fb2f878046db515945bd672} 
+\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*} {\bfseries beverage}
+\begin{DoxyCompactList}\small\item\em Получение указателя на класс напиток \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для получения информации о напитке или о добавке 
+
+\label{doc-func-members}
+\Hypertarget{class_condiment_decorator_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_condiment_decorator_aae52dd4645b9c84541728a60295a3882}\index{CondimentDecorator@{CondimentDecorator}!cost@{cost}}
+\index{cost@{cost}!CondimentDecorator@{CondimentDecorator}}
+\doxysubsubsection{\texorpdfstring{cost()}{cost()}}
+{\footnotesize\ttfamily \label{class_condiment_decorator_aae52dd4645b9c84541728a60295a3882} 
+double Condiment\+Decorator::\+cost (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция для получения цену напитка 
+
+\begin{DoxyReturn}{Возвращает}
+double -\/ Возвращает цену напитка 
+\end{DoxyReturn}
+
+
+Замещает \doxymbox{\hyperlink{class_beverage}{Beverage}}.
+
+
+
+Переопределяется в \doxymbox{\hyperlink{class_ice_aac285ab2d9500d10dae3be39d7e5ea5f}{Ice}}, \doxymbox{\hyperlink{class_milk_a09258d52d74f394094e4e8b3568de172}{Milk}}, \doxymbox{\hyperlink{class_picture_on_coffee_aff89b81ebe2310fc4f6e7b6d34d24db0}{Picture\+On\+Coffee}}, \doxymbox{\hyperlink{class_sugar_a0f75a1b48a15620db6fd079a6e128a0d}{Sugar}} и \doxymbox{\hyperlink{class_syrup_a210645fbdff95836ac673f620ce5a7fb}{Syrup}}.
+
+\Hypertarget{class_condiment_decorator_a0f95d1319daadd8ed01b2ffaa3c601d6}\index{CondimentDecorator@{CondimentDecorator}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!CondimentDecorator@{CondimentDecorator}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily \label{class_condiment_decorator_a0f95d1319daadd8ed01b2ffaa3c601d6} 
+string Condiment\+Decorator::\+get\+Description (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция для получения названия напитка 
+
+\begin{DoxyReturn}{Возвращает}
+string -\/ Возвращает название напитка 
+\end{DoxyReturn}
+
+
+Замещает \doxymbox{\hyperlink{class_beverage}{Beverage}}.
+
+
+
+Переопределяется в \doxymbox{\hyperlink{class_ice_a8ebf9bb3063291121f70c745c364ccfc}{Ice}}, \doxymbox{\hyperlink{class_milk_a693769c2fd19713253939665d12fa5ab}{Milk}}, \doxymbox{\hyperlink{class_picture_on_coffee_a8c68b0cea23ba85fc475847a27a8f463}{Picture\+On\+Coffee}}, \doxymbox{\hyperlink{class_sugar_afe82094b43e6da7041983c35bfb7197b}{Sugar}} и \doxymbox{\hyperlink{class_syrup_ae59f9838cff7fa21d989a373c1634bfe}{Syrup}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+Structural\+Patterns/\+\+Structure Pattern/\+Structure Pattern.\+cpp\end{DoxyCompactItemize}

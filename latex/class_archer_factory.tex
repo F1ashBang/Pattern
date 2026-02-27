@@ -1,0 +1,53 @@
+\doxysection{Класс Archer\+Factory}
+\hypertarget{class_archer_factory}{}\label{class_archer_factory}\index{ArcherFactory@{ArcherFactory}}
+
+
+класс для создания "{}Лучника"{}  
+
+
+Граф наследования:\+Archer\+Factory:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_archer_factory}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_archer_factory_a8b4b87287aafc9b8b75b4f52c8109725}{create\+Hero}} () override
+\begin{DoxyCompactList}\small\item\em Функция для выделения памяти на класс персонажа \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые члены унаследованные от \doxymbox{\hyperlink{class_character_factory}{Character\+Factory}}}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_character_factory_a40a919b1964e459259c87ebbe4eb96f3}{spawn\+And\+Attak}} ()
+\begin{DoxyCompactList}\small\item\em Функция для создания персонажей и выполнения его базовых действий \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+класс для создания "{}Лучника"{} 
+
+\label{doc-func-members}
+\Hypertarget{class_archer_factory_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_archer_factory_a8b4b87287aafc9b8b75b4f52c8109725}\index{ArcherFactory@{ArcherFactory}!createHero@{createHero}}
+\index{createHero@{createHero}!ArcherFactory@{ArcherFactory}}
+\doxysubsubsection{\texorpdfstring{createHero()}{createHero()}}
+{\footnotesize\ttfamily \label{class_archer_factory_a8b4b87287aafc9b8b75b4f52c8109725} 
+\doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} Archer\+Factory::\+create\+Hero (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция для выделения памяти на класс персонажа 
+
+\begin{DoxyReturn}{Возвращает}
+Возвращает указатель на созданного персонажа 
+\end{DoxyReturn}
+
+
+Замещает \doxymbox{\hyperlink{class_character_factory}{Character\+Factory}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+Creational\+Patterns/\+\+Creational Pattern/\+Creational Pattern.\+cpp\end{DoxyCompactItemize}

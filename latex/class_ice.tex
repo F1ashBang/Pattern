@@ -1,0 +1,81 @@
+\doxysection{Класс Ice}
+\hypertarget{class_ice}{}\label{class_ice}\index{Ice@{Ice}}
+
+
+Класс для добавления "{}Льда"{}.  
+
+
+Граф наследования:\+Ice:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_ice}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ice_a06ef8f9d06c44bc4de64fb5c485e4cd9}\label{class_ice_a06ef8f9d06c44bc4de64fb5c485e4cd9} 
+{\bfseries Ice} (\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}b)
+\begin{DoxyCompactList}\small\item\em Конструктор для инициализации добаки к напитку \end{DoxyCompactList}\item 
+string \doxymbox{\hyperlink{class_ice_a8ebf9bb3063291121f70c745c364ccfc}{get\+Description}} () override
+\begin{DoxyCompactList}\small\item\em Функция для получения названия напитка с добавкой \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_ice_aac285ab2d9500d10dae3be39d7e5ea5f}{cost}} () override
+\begin{DoxyCompactList}\small\item\em Функция для получения цену напитка с добавкой \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые члены унаследованные от \doxymbox{\hyperlink{class_condiment_decorator}{Condiment\+Decorator}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Condiment\+Decorator} (\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}b)
+\begin{DoxyCompactList}\small\item\em Конструктор для инициализации напитка \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Дополнительные унаследованные члены}
+\doxysubsection*{Защищенные данные унаследованные от \doxymbox{\hyperlink{class_condiment_decorator}{Condiment\+Decorator}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*} {\bfseries beverage}
+\begin{DoxyCompactList}\small\item\em Получение указателя на класс напиток \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для добавления "{}Льда"{}. 
+
+\label{doc-func-members}
+\Hypertarget{class_ice_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_ice_aac285ab2d9500d10dae3be39d7e5ea5f}\index{Ice@{Ice}!cost@{cost}}
+\index{cost@{cost}!Ice@{Ice}}
+\doxysubsubsection{\texorpdfstring{cost()}{cost()}}
+{\footnotesize\ttfamily \label{class_ice_aac285ab2d9500d10dae3be39d7e5ea5f} 
+double Ice::\+cost (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция для получения цену напитка с добавкой 
+
+\begin{DoxyReturn}{Возвращает}
+double -\/ Возвращает цену напитка с добавкой 
+\end{DoxyReturn}
+
+
+Переопределяет метод предка \doxymbox{\hyperlink{class_condiment_decorator_aae52dd4645b9c84541728a60295a3882}{Condiment\+Decorator}}.
+
+\Hypertarget{class_ice_a8ebf9bb3063291121f70c745c364ccfc}\index{Ice@{Ice}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!Ice@{Ice}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily \label{class_ice_a8ebf9bb3063291121f70c745c364ccfc} 
+string Ice::\+get\+Description (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция для получения названия напитка с добавкой 
+
+\begin{DoxyReturn}{Возвращает}
+string -\/ Возвращает название напитка с добавкой 
+\end{DoxyReturn}
+
+
+Переопределяет метод предка \doxymbox{\hyperlink{class_condiment_decorator_a0f95d1319daadd8ed01b2ffaa3c601d6}{Condiment\+Decorator}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+Structural\+Patterns/\+\+Structure Pattern/\+Structure Pattern.\+cpp\end{DoxyCompactItemize}

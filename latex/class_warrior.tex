@@ -1,0 +1,83 @@
+\doxysection{Класс Warrior}
+\hypertarget{class_warrior}{}\label{class_warrior}\index{Warrior@{Warrior}}
+
+
+@breaf Класс с настройками для персонажа "{}Воин"{}  
+
+
+Граф наследования:\+Warrior:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_warrior}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+string \doxymbox{\hyperlink{class_warrior_ac5b177bd2922074cb8fe592ff90d73e6}{get\+Type}} () override
+\begin{DoxyCompactList}\small\item\em Функция для получения типа персонажа \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_warrior_a3b4cb1e3d8940517f45b4a79812de284}{attak}} () override
+\item 
+int \doxymbox{\hyperlink{class_warrior_aa1418d23db6dac64b33ea11f8ceaa801}{get\+Health}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+@breaf Класс с настройками для персонажа "{}Воин"{} 
+
+\label{doc-func-members}
+\Hypertarget{class_warrior_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_warrior_a3b4cb1e3d8940517f45b4a79812de284}\index{Warrior@{Warrior}!attak@{attak}}
+\index{attak@{attak}!Warrior@{Warrior}}
+\doxysubsubsection{\texorpdfstring{attak()}{attak()}}
+{\footnotesize\ttfamily \label{class_warrior_a3b4cb1e3d8940517f45b4a79812de284} 
+void Warrior::\+attak (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\textbackslash{}breaf Функция для выполнения действий персонажа \begin{DoxyNote}{Заметки}
+Не влияет ни на что, это учебный код 
+\end{DoxyNote}
+\begin{DoxyRefDesc}{Необходимо сделать}
+\item[\doxymbox{\hyperlink{todo__todo000001}{Необходимо сделать}}]Добавить возможность отбирать жизни у того, на кого напали \end{DoxyRefDesc}
+
+
+Замещает \doxymbox{\hyperlink{class_character}{Character}}.
+
+\Hypertarget{class_warrior_aa1418d23db6dac64b33ea11f8ceaa801}\index{Warrior@{Warrior}!getHealth@{getHealth}}
+\index{getHealth@{getHealth}!Warrior@{Warrior}}
+\doxysubsubsection{\texorpdfstring{getHealth()}{getHealth()}}
+{\footnotesize\ttfamily \label{class_warrior_aa1418d23db6dac64b33ea11f8ceaa801} 
+int Warrior::\+get\+Health (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+\textbackslash{}breaf Функция для получения HP(\+Hit Points) персонажа \begin{DoxyReturn}{Возвращает}
+int -\/ HP(\+Hit Points) персонажа 
+\end{DoxyReturn}
+
+
+Замещает \doxymbox{\hyperlink{class_character}{Character}}.
+
+\Hypertarget{class_warrior_ac5b177bd2922074cb8fe592ff90d73e6}\index{Warrior@{Warrior}!getType@{getType}}
+\index{getType@{getType}!Warrior@{Warrior}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily \label{class_warrior_ac5b177bd2922074cb8fe592ff90d73e6} 
+string Warrior::\+get\+Type (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция для получения типа персонажа 
+
+\begin{DoxyReturn}{Возвращает}
+string -\/ название персонажа 
+\end{DoxyReturn}
+\begin{DoxyRemark}{Прим.}
+Получаем только имя персонажа, т.\+к. это учебный код 
+\end{DoxyRemark}
+
+
+Замещает \doxymbox{\hyperlink{class_character}{Character}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+Creational\+Patterns/\+\+Creational Pattern/\+Creational Pattern.\+cpp\end{DoxyCompactItemize}

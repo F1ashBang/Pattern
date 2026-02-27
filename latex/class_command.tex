@@ -1,0 +1,58 @@
+\doxysection{Класс Command}
+\hypertarget{class_command}{}\label{class_command}\index{Command@{Command}}
+
+
+Абстрактный класс команды  
+
+
+Граф наследования:\+Command:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.707317cm]{class_command}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \doxymbox{\hyperlink{class_command_a6fd7d9bd8df8bfc881e4d6c7cd1878b7}{execute}} ()=0
+\item 
+virtual void \doxymbox{\hyperlink{class_command_ad5eccd34dc85abda2cd0c21d819c17dc}{undo}} ()=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Абстрактный класс команды 
+
+Определяет интерфейс для всех конкретных команд \begin{DoxyNote}{Заметки}
+Является "{}Командой"{} (\doxylink{class_command}{Command}) в паттерне Команда 
+\end{DoxyNote}
+
+
+\label{doc-func-members}
+\Hypertarget{class_command_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_command_a6fd7d9bd8df8bfc881e4d6c7cd1878b7}\index{Command@{Command}!execute@{execute}}
+\index{execute@{execute}!Command@{Command}}
+\doxysubsubsection{\texorpdfstring{execute()}{execute()}}
+{\footnotesize\ttfamily \label{class_command_a6fd7d9bd8df8bfc881e4d6c7cd1878b7} 
+virtual void Command::\+execute (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \doxymbox{\hyperlink{class_launch_browser_command_a7095647975f6e36fa51e8831020e6f60}{Launch\+Browser\+Command}}, \doxymbox{\hyperlink{class_launch_paint_command_aacddd43ff5992e6ec0285c379c24035f}{Launch\+Paint\+Command}}, \doxymbox{\hyperlink{class_open_file_command_ad4c19347016458e2e9ef1e837e4ad0fe}{Open\+File\+Command}} и \doxymbox{\hyperlink{class_reload_command_ab02957bb0a308480ecbeec0abc60f149}{Reload\+Command}}.
+
+\Hypertarget{class_command_ad5eccd34dc85abda2cd0c21d819c17dc}\index{Command@{Command}!undo@{undo}}
+\index{undo@{undo}!Command@{Command}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily \label{class_command_ad5eccd34dc85abda2cd0c21d819c17dc} 
+virtual void Command::\+undo (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \doxymbox{\hyperlink{class_launch_browser_command_a1f74fc3f40306db43bf9df7289388662}{Launch\+Browser\+Command}}, \doxymbox{\hyperlink{class_launch_paint_command_abdb86263307860fbe1c7ae693660893f}{Launch\+Paint\+Command}}, \doxymbox{\hyperlink{class_open_file_command_aeea4ae13a0c1748c00702f16c52f4e89}{Open\+File\+Command}} и \doxymbox{\hyperlink{class_reload_command_a4cded76b755624e5fb57bce47c8ae2cc}{Reload\+Command}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+Behavioral\+Patterns/\+\+Behavioral Pattern/\+Behavioral Pattern.\+cpp\end{DoxyCompactItemize}
